@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leopold Aschenbrenner 포트폴리오 · Situational Awareness LP</title>
-  <meta name="description" content="Leopold Aschenbrenner의 헤지펀드 Situational Awareness LP의 13F 공시 기반 포트폴리오를 한눈에." />
+  <meta name="description" content="Leopold Aschenbrenner의 헤지펀드 Situational Awareness LP의 13F 공시 기반 포트폴리오와 최신 뉴스를 한눈에." />
   <meta property="og:title" content="Leopold Aschenbrenner 포트폴리오" />
-  <meta property="og:description" content="Situational Awareness LP 13F 보유 종목·비율" />
+  <meta property="og:description" content="Situational Awareness LP 13F 보유 종목·비율·뉴스" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="styles.css" />
@@ -40,45 +40,88 @@
       <p class="hero__updated" id="updated">불러오는 중…</p>
     </header>
 
-    <section class="grid">
-      <div class="card card--chart">
-        <h2 class="card__title">보유 비중</h2>
-        <p class="card__sub">상위 종목 기준 · 평가액 비율</p>
-        <div class="donut">
-          <svg id="donut" viewBox="0 0 200 200" aria-label="포트폴리오 비중 도넛 차트"></svg>
-          <div class="donut__center">
-            <span class="donut__center-label">상위 보유</span>
-            <span class="donut__center-value" id="donutCenter">—</span>
-          </div>
-        </div>
-        <ul class="legend" id="legend"></ul>
-      </div>
+    <!-- 탭 -->
+    <nav class="tabs" role="tablist">
+      <button class="tab is-active" data-tab="portfolio" role="tab">포트폴리오</button>
+      <button class="tab" data-tab="news" role="tab">뉴스</button>
+    </nav>
 
-      <div class="card card--table">
-        <div class="card__head">
-          <div>
-            <h2 class="card__title">전체 보유 종목</h2>
-            <p class="card__sub">비율 오름차순</p>
+    <!-- ===================== 포트폴리오 탭 ===================== -->
+    <section class="panel is-active" data-panel="portfolio">
+      <div class="notice" id="disclosureNotice" hidden></div>
+
+      <div class="grid">
+        <div class="card card--chart">
+          <h2 class="card__title">보유 비중</h2>
+          <p class="card__sub">상위 종목 기준 · 평가액 비율</p>
+          <div class="donut">
+            <svg id="donut" viewBox="0 0 200 200" aria-label="포트폴리오 비중 도넛 차트"></svg>
+            <div class="donut__center">
+              <span class="donut__center-label">상위 보유</span>
+              <span class="donut__center-value" id="donutCenter">—</span>
+            </div>
           </div>
+          <ul class="legend" id="legend"></ul>
         </div>
-        <div class="table-scroll">
-          <table class="holdings">
-            <thead>
-              <tr>
-                <th class="col-name">종목</th>
-                <th class="col-type">유형</th>
-                <th class="col-val">평가액</th>
-                <th class="col-pct">비율</th>
-              </tr>
-            </thead>
-            <tbody id="tableBody"></tbody>
-          </table>
+
+        <div class="card card--table">
+          <div class="card__head">
+            <div>
+              <h2 class="card__title">전체 보유 종목</h2>
+              <p class="card__sub">컬럼 머리글을 눌러 정렬</p>
+            </div>
+            <div class="sort-toggle" id="sortToggle">
+              <button data-dir="asc" class="is-active">오름차순 ↑</button>
+              <button data-dir="desc">내림차순 ↓</button>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="holdings">
+              <thead>
+                <tr>
+                  <th class="col-name">종목</th>
+                  <th class="col-type">유형</th>
+                  <th class="col-val sortable" data-key="value">평가액</th>
+                  <th class="col-pct sortable" data-key="pct">비율</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- ===================== 뉴스 탭 ===================== -->
+    <section class="panel" data-panel="news">
+      <div class="news-head">
+        <div class="news-live">
+          <span class="dot-live"></span>
+          <span id="newsLive">1분마다 자동 업데이트</span>
+        </div>
+        <button class="refresh-btn" id="refreshNews">새로고침</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card__title">레오폴드 &amp; Situational Awareness</h2>
+        <p class="card__sub">인물·펀드 관련 최신 뉴스</p>
+        <ul class="news-list" id="personNews"><li class="news-empty">불러오는 중…</li></ul>
+      </div>
+
+      <div class="card">
+        <div class="card__head">
+          <div>
+            <h2 class="card__title">보유 종목 뉴스</h2>
+            <p class="card__sub" id="tickerSub">종목을 선택하세요</p>
+          </div>
+        </div>
+        <div class="chips" id="tickerChips"></div>
+        <ul class="news-list" id="tickerNews"><li class="news-empty">종목을 선택하면 뉴스가 표시됩니다.</li></ul>
+      </div>
+    </section>
+
     <footer class="foot">
-      <p>출처: <a id="sourceLink" href="#" target="_blank" rel="noopener">SEC 13F 공시 (13f.info)</a> · 본 페이지는 정보 제공용이며 투자 권유가 아닙니다.</p>
+      <p>출처: <a id="sourceLink" href="#" target="_blank" rel="noopener">SEC 13F·13G 공시</a> · 뉴스: Google News · 본 페이지는 정보 제공용이며 투자 권유가 아닙니다.</p>
     </footer>
   </main>
 

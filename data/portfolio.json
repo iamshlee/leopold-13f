@@ -428,5 +428,19 @@
       "pct": 14.94
     }
   ],
-  "updatedAt": "2026-06-22T15:03:47+00:00"
+  "recentDisclosures": [
+    {
+      "form": "SCHEDULE 13G",
+      "issuer": "Nebius Group N.V.",
+      "ticker": "NBIS",
+      "cusip": "N97284108",
+      "classTitle": "Class A Ordinary Shares",
+      "shares": 12410060,
+      "percentOfCompany": 5.6,
+      "eventDate": "05/19/2026",
+      "filedDate": "2026-05-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/"
+    }
+  ],
+  "updatedAt": "2026-06-22T15:20:04+00:00"
 }
