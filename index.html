@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leopold Aschenbrenner 포트폴리오 · Situational Awareness LP</title>
+  <meta name="description" content="Leopold Aschenbrenner의 헤지펀드 Situational Awareness LP의 13F 공시 기반 포트폴리오를 한눈에." />
+  <meta property="og:title" content="Leopold Aschenbrenner 포트폴리오" />
+  <meta property="og:description" content="Situational Awareness LP 13F 보유 종목·비율" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="hero__top">
+        <div>
+          <p class="hero__eyebrow">13F 포트폴리오</p>
+          <h1 class="hero__title">Leopold Aschenbrenner</h1>
+          <p class="hero__fund" id="fundName">Situational Awareness LP</p>
+        </div>
+        <span class="badge" id="quarterBadge">—</span>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__label">총 평가액</span>
+          <span class="stat__value" id="totalValue">—</span>
+        </div>
+        <div class="stat">
+          <span class="stat__label">보유 종목</span>
+          <span class="stat__value" id="holdingsCount">—</span>
+        </div>
+        <div class="stat">
+          <span class="stat__label">기준 공시</span>
+          <span class="stat__value" id="quarterValue">—</span>
+        </div>
+      </div>
+      <p class="hero__updated" id="updated">불러오는 중…</p>
+    </header>
+
+    <section class="grid">
+      <div class="card card--chart">
+        <h2 class="card__title">보유 비중</h2>
+        <p class="card__sub">상위 종목 기준 · 평가액 비율</p>
+        <div class="donut">
+          <svg id="donut" viewBox="0 0 200 200" aria-label="포트폴리오 비중 도넛 차트"></svg>
+          <div class="donut__center">
+            <span class="donut__center-label">상위 보유</span>
+            <span class="donut__center-value" id="donutCenter">—</span>
+          </div>
+        </div>
+        <ul class="legend" id="legend"></ul>
+      </div>
+
+      <div class="card card--table">
+        <div class="card__head">
+          <div>
+            <h2 class="card__title">전체 보유 종목</h2>
+            <p class="card__sub">비율 오름차순</p>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table class="holdings">
+            <thead>
+              <tr>
+                <th class="col-name">종목</th>
+                <th class="col-type">유형</th>
+                <th class="col-val">평가액</th>
+                <th class="col-pct">비율</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>출처: <a id="sourceLink" href="#" target="_blank" rel="noopener">SEC 13F 공시 (13f.info)</a> · 본 페이지는 정보 제공용이며 투자 권유가 아닙니다.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
