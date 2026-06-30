@@ -431,6 +431,18 @@
   "recentDisclosures": [
     {
       "form": "SCHEDULE 13G",
+      "issuer": "SharonAI Holdings Inc.",
+      "ticker": null,
+      "cusip": "778920306",
+      "classTitle": "Class A Ordinary Common Stock",
+      "shares": 5404540,
+      "percentOfCompany": 19.9,
+      "eventDate": "06/22/2026",
+      "filedDate": "2026-06-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000334/"
+    },
+    {
+      "form": "SCHEDULE 13G",
       "issuer": "Nebius Group N.V.",
       "ticker": "NBIS",
       "cusip": "N97284108",
@@ -442,5 +454,5 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/"
     }
   ],
-  "updatedAt": "2026-06-29T03:28:05+00:00"
+  "updatedAt": "2026-06-30T02:53:51+00:00"
 }
