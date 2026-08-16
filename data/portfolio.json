@@ -1,470 +1,273 @@
 {
   "fund": "Situational Awareness LP",
   "manager": "Leopold Aschenbrenner",
-  "quarter": "Q1 2026",
-  "filingId": "000204572426000008",
-  "sourceUrl": "https://13f.info/13f/000204572426000008",
-  "totalValueUsd": 13676637000,
-  "holdingsCount": 42,
+  "quarter": "Q2 2026",
+  "filingId": "000093583626000418",
+  "sourceUrl": "https://13f.info/13f/000093583626000418",
+  "totalValueUsd": 20242280000,
+  "holdingsCount": 26,
   "holdings": [
     {
-      "ticker": "NVDA",
-      "name": "Nvidia Corporation",
-      "class": "COM",
-      "value": 497,
-      "shares": 2855,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.0
-    },
-    {
-      "ticker": "GLW",
-      "name": "Corning Inc",
-      "class": "COM",
-      "value": 718,
-      "shares": 5283,
+      "ticker": "—",
+      "name": "Cerebras Systems Inc",
+      "class": "COM CL A",
+      "value": 2210,
+      "shares": 10000,
       "position": null,
       "positionLabel": "주식",
       "pct": 0.01
     },
     {
-      "ticker": "ASML",
-      "name": "Asml Hldg Nv N Y Registry",
-      "class": "SHS",
-      "value": 6119,
-      "shares": 4633,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.04
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology Inc",
-      "class": "COM",
-      "value": 5865,
-      "shares": 17362,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.04
-    },
-    {
       "ticker": "INFY",
       "name": "Infosys Ltd",
       "class": "SPONSORED ADR",
-      "value": 6755,
+      "value": 5245,
       "shares": 500000,
       "position": "put",
       "positionLabel": "풋옵션",
-      "pct": 0.05
+      "pct": 0.03
     },
     {
-      "ticker": "HIVE.V",
-      "name": "Hive Digital Technologies Lt",
-      "class": "COM NEW",
-      "value": 6443,
-      "shares": 3391547,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.05
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufac",
-      "class": "SPONSORED ADS",
-      "value": 7577,
-      "shares": 22423,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.06
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corp",
+      "ticker": "VSH",
+      "name": "Vishay Intertechnology Inc",
       "class": "COM",
-      "value": 8929,
-      "shares": 202344,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.07
-    },
-    {
-      "ticker": "SMH",
-      "name": "Vaneck Etf Trust",
-      "class": "SEMICONDUCTR ETF",
-      "value": 10332,
-      "shares": 26950,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.08
-    },
-    {
-      "ticker": "PUMP",
-      "name": "Propetro Hldg Corp",
-      "class": "COM",
-      "value": 13117,
-      "shares": 910300,
+      "value": 20167,
+      "shares": 375000,
       "position": null,
       "positionLabel": "주식",
       "pct": 0.1
     },
     {
-      "ticker": "—",
-      "name": "Sharonai Holdings Inc",
-      "class": "COM CL A ADDED",
-      "value": 18095,
-      "shares": 796108,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.13
-    },
-    {
-      "ticker": "GLW",
-      "name": "Corning Inc",
-      "class": "COM",
-      "value": 21020,
-      "shares": 154600,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 0.15
-    },
-    {
-      "ticker": "WYFI",
-      "name": "Whitefiber Inc",
-      "class": "SHS",
-      "value": 20933,
-      "shares": 1757600,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.15
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc",
-      "class": "COM",
-      "value": 20167,
-      "shares": 99138,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.15
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufac",
+      "class": "SPONSORED ADS",
+      "value": 23878,
+      "shares": 50000,
+      "position": "call",
+      "positionLabel": "콜옵션",
+      "pct": 0.12
     },
     {
       "ticker": "BW",
       "name": "Babcock & Wilcox Enterprises",
       "class": "COM",
-      "value": 19888,
-      "shares": 1353900,
+      "value": 28587,
+      "shares": 2027451,
       "position": null,
       "positionLabel": "주식",
-      "pct": 0.15
+      "pct": 0.14
     },
     {
-      "ticker": "PSIX",
-      "name": "Power Solutions Intl Inc",
-      "class": "COM NEW",
-      "value": 26318,
-      "shares": 432300,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.19
-    },
-    {
-      "ticker": "BTDR",
-      "name": "Bitdeer Technologies Group",
-      "class": "CL A ORD SHS",
-      "value": 29751,
-      "shares": 3439450,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 0.22
-    },
-    {
-      "ticker": "BITF",
-      "name": "Bitfarms Ltd",
+      "ticker": "PUMP",
+      "name": "Propetro Hldg Corp",
       "class": "COM",
-      "value": 38757,
-      "shares": 19875840,
+      "value": 28111,
+      "shares": 1960382,
       "position": null,
       "positionLabel": "주식",
-      "pct": 0.28
+      "pct": 0.14
+    },
+    {
+      "ticker": "HIVE.V",
+      "name": "Hive Digital Technologies Lt",
+      "class": "COM NEW",
+      "value": 33246,
+      "shares": 9133726,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 0.16
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy Corp",
+      "class": "COM CL A",
+      "value": 44133,
+      "shares": 145800,
+      "position": "call",
+      "positionLabel": "콜옵션",
+      "pct": 0.22
     },
     {
       "ticker": "FREY",
       "name": "T1 Energy Inc",
       "class": "COM NEW",
-      "value": 43900,
-      "shares": 10000000,
+      "value": 46452,
+      "shares": 4900000,
       "position": null,
       "positionLabel": "주식",
-      "pct": 0.32
+      "pct": 0.23
     },
     {
-      "ticker": "BE",
-      "name": "Bloom Energy Corp",
-      "class": "COM CL A",
-      "value": 55347,
-      "shares": 408500,
-      "position": "call",
-      "positionLabel": "콜옵션",
-      "pct": 0.4
+      "ticker": "BTDR",
+      "name": "Bitdeer Technologies Group",
+      "class": "CL A ORD SHS",
+      "value": 54584,
+      "shares": 3439450,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 0.27
+    },
+    {
+      "ticker": "WYFI",
+      "name": "Whitefiber Inc",
+      "class": "SHS",
+      "value": 68282,
+      "shares": 1757600,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 0.34
     },
     {
       "ticker": "SOI",
       "name": "Solaris Energy Infras Inc",
       "class": "COM CL A",
-      "value": 62474,
-      "shares": 1105551,
+      "value": 90889,
+      "shares": 1129621,
       "position": null,
       "positionLabel": "주식",
-      "pct": 0.46
+      "pct": 0.45
+    },
+    {
+      "ticker": "—",
+      "name": "Keel Infrastructure Corp",
+      "class": "SHSCOM",
+      "value": 151830,
+      "shares": 26451393,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 0.75
     },
     {
       "ticker": "CLSK",
       "name": "Cleanspark Inc",
       "class": "COM NEW",
-      "value": 104469,
+      "value": 178617,
       "shares": 12276139,
       "position": null,
       "positionLabel": "주식",
-      "pct": 0.76
-    },
-    {
-      "ticker": "CRWV",
-      "name": "Coreweave Inc",
-      "class": "COM CL A",
-      "value": 140569,
-      "shares": 1814500,
-      "position": "call",
-      "positionLabel": "콜옵션",
-      "pct": 1.03
-    },
-    {
-      "ticker": "RIOT",
-      "name": "Riot Platforms Inc",
-      "class": "COM",
-      "value": 142166,
-      "shares": 11502137,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 1.04
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corp",
-      "class": "COM",
-      "value": 159106,
-      "shares": 3605400,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 1.16
-    },
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital Corp",
-      "class": "COM NEW",
-      "value": 319978,
-      "shares": 13478438,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 2.34
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufac",
-      "class": "SPONSORED ADS",
-      "value": 354847,
-      "shares": 1050000,
-      "position": "call",
-      "positionLabel": "콜옵션",
-      "pct": 2.59
-    },
-    {
-      "ticker": "CORZ",
-      "name": "Core Scientific Inc New",
-      "class": "COM",
-      "value": 389086,
-      "shares": 26008473,
-      "position": null,
-      "positionLabel": "주식",
-      "pct": 2.84
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp",
-      "class": "COM",
-      "value": 388764,
-      "shares": 611900,
-      "position": "call",
-      "positionLabel": "콜옵션",
-      "pct": 2.84
+      "pct": 0.88
     },
     {
       "ticker": "IREN",
       "name": "Iren Limited",
       "class": "ORDINARY SHARES",
-      "value": 401036,
-      "shares": 11698835,
+      "value": 433250,
+      "shares": 9474099,
       "position": null,
       "positionLabel": "주식",
-      "pct": 2.93
+      "pct": 2.14
     },
     {
-      "ticker": "MU",
-      "name": "Micron Technology Inc",
+      "ticker": "—",
+      "name": "Sharonai Holdings Inc",
+      "class": "COM CL A",
+      "value": 456836,
+      "shares": 5396127,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 2.26
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms Inc",
       "class": "COM",
-      "value": 422300,
-      "shares": 1250000,
-      "position": "call",
-      "positionLabel": "콜옵션",
-      "pct": 3.09
+      "value": 468198,
+      "shares": 17100000,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 2.31
     },
     {
-      "ticker": "ASML",
-      "name": "Asml Hldg Nv N Y Registry",
-      "class": "SHS",
-      "value": 494122,
-      "shares": 374100,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 3.61
+      "ticker": "APLD",
+      "name": "Applied Digital Corp",
+      "class": "COM NEW",
+      "value": 469022,
+      "shares": 15384616,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 2.32
     },
     {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufac",
-      "class": "SPONSORED ADS",
-      "value": 535110,
-      "shares": 1583400,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 3.91
+      "ticker": "STM",
+      "name": "Stmicroelectronics",
+      "class": "NY REGISTRY",
+      "value": 584344,
+      "shares": 7802700,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 2.89
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific Inc New",
+      "class": "COM",
+      "value": 665556,
+      "shares": 26008473,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 3.29
     },
     {
       "ticker": "CRWV",
       "name": "Coreweave Inc",
       "class": "COM CL A",
-      "value": 556073,
-      "shares": 7177919,
+      "value": 744515,
+      "shares": 7479558,
       "position": null,
       "positionLabel": "주식",
-      "pct": 4.07
+      "pct": 3.68
     },
     {
-      "ticker": "MU",
-      "name": "Micron Technology Inc",
-      "class": "COM",
-      "value": 583686,
-      "shares": 1727700,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 4.27
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp",
-      "class": "COM",
-      "value": 724363,
-      "shares": 1140119,
+      "ticker": "YNDX",
+      "name": "Nebius Group N.V.",
+      "class": "CLASS ASHS",
+      "value": 1232894,
+      "shares": 4464260,
       "position": null,
       "positionLabel": "주식",
-      "pct": 5.3
+      "pct": 6.09
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufac",
+      "class": "SPONSORED ADS",
+      "value": 1265099,
+      "shares": 2649035,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 6.25
     },
     {
       "ticker": "BE",
       "name": "Bloom Energy Corp",
       "class": "COM CL A",
-      "value": 878707,
-      "shares": 6485408,
+      "value": 1898778,
+      "shares": 6272808,
       "position": null,
       "positionLabel": "주식",
-      "pct": 6.42
+      "pct": 9.38
     },
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc",
+      "ticker": "MU",
+      "name": "Micron Technology Inc",
       "class": "COM",
-      "value": 969160,
-      "shares": 4764100,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 7.09
+      "value": 5573819,
+      "shares": 4828786,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 27.54
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc",
+      "ticker": "SNDK",
+      "name": "Sandisk Corp",
       "class": "COM",
-      "value": 1006247,
-      "shares": 3251100,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 7.36
-    },
-    {
-      "ticker": "ORCL",
-      "name": "Oracle Corp",
-      "class": "COM",
-      "value": 1072873,
-      "shares": 7293000,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 7.84
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Nvidia Corporation",
-      "class": "COM",
-      "value": 1568257,
-      "shares": 8992300,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 11.47
-    },
-    {
-      "ticker": "SMH",
-      "name": "Vaneck Etf Trust",
-      "class": "SEMICONDUCTR ETF",
-      "value": 2042716,
-      "shares": 5327900,
-      "position": "put",
-      "positionLabel": "풋옵션",
-      "pct": 14.94
+      "value": 5673738,
+      "shares": 2495344,
+      "position": null,
+      "positionLabel": "주식",
+      "pct": 28.03
     }
   ],
-  "recentDisclosures": [
-    {
-      "form": "SCHEDULE 13G/A",
-      "issuer": "SharonAI Holdings Inc.",
-      "ticker": null,
-      "cusip": "778920306",
-      "classTitle": "Class A Ordinary Common Stock",
-      "shares": 7563029,
-      "percentOfCompany": 19.9,
-      "eventDate": "06/30/2026",
-      "filedDate": "2026-08-14",
-      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000416/"
-    },
-    {
-      "form": "SCHEDULE 13D/A",
-      "issuer": "Core Scientific, Inc.",
-      "ticker": null,
-      "cusip": "21874A106",
-      "classTitle": "Common Stock, par value $0.00001 per share",
-      "shares": 14089395,
-      "percentOfCompany": 4.4,
-      "eventDate": null,
-      "filedDate": "2026-08-04",
-      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/"
-    },
-    {
-      "form": "SCHEDULE 13G",
-      "issuer": "Nebius Group N.V.",
-      "ticker": "NBIS",
-      "cusip": "N97284108",
-      "classTitle": "Class A Ordinary Shares",
-      "shares": 12410060,
-      "percentOfCompany": 5.6,
-      "eventDate": "05/19/2026",
-      "filedDate": "2026-05-27",
-      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/"
-    }
-  ],
-  "updatedAt": "2026-08-15T00:57:32+00:00"
+  "recentDisclosures": [],
+  "updatedAt": "2026-08-16T01:00:48+00:00"
 }
