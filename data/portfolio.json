@@ -8,7 +8,7 @@
   "holdingsCount": 26,
   "holdings": [
     {
-      "ticker": "—",
+      "ticker": "CBRS",
       "name": "Cerebras Systems Inc",
       "class": "COM CL A",
       "value": 2210,
@@ -128,7 +128,7 @@
       "pct": 0.45
     },
     {
-      "ticker": "—",
+      "ticker": "KEEL",
       "name": "Keel Infrastructure Corp",
       "class": "SHSCOM",
       "value": 151830,
@@ -158,7 +158,7 @@
       "pct": 2.14
     },
     {
-      "ticker": "—",
+      "ticker": "SHAZ",
       "name": "Sharonai Holdings Inc",
       "class": "COM CL A",
       "value": 456836,
@@ -269,5 +269,5 @@
     }
   ],
   "recentDisclosures": [],
-  "updatedAt": "2026-08-26T01:00:50+00:00"
+  "updatedAt": "2026-08-27T06:56:18+00:00"
 }
