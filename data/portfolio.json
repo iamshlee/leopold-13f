@@ -270,7 +270,7 @@
   ],
   "recentDisclosures": [
     {
-      "form": "SCHEDULE 13D",
+      "form": "SCHEDULE 13D/A",
       "issuer": "SharonAI Holdings Inc.",
       "ticker": null,
       "cusip": "778920306",
@@ -278,9 +278,9 @@
       "shares": 8070950,
       "percentOfCompany": 21.1,
       "eventDate": null,
-      "filedDate": "2026-08-28",
-      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/"
+      "filedDate": "2026-09-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000500/"
     }
   ],
-  "updatedAt": "2026-09-17T03:06:04+00:00"
+  "updatedAt": "2026-09-18T02:54:00+00:00"
 }
