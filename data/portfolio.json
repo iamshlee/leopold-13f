@@ -68,7 +68,7 @@
       "pct": 0.14
     },
     {
-      "ticker": "HIVE",
+      "ticker": "HIVE.V",
       "name": "Hive Digital Technologies Lt",
       "class": "COM NEW",
       "value": 33246,
@@ -88,7 +88,7 @@
       "pct": 0.22
     },
     {
-      "ticker": "TE",
+      "ticker": "FREY",
       "name": "T1 Energy Inc",
       "class": "COM NEW",
       "value": 46452,
@@ -118,7 +118,7 @@
       "pct": 0.34
     },
     {
-      "ticker": "SEI",
+      "ticker": "SOI",
       "name": "Solaris Energy Infras Inc",
       "class": "COM CL A",
       "value": 90889,
@@ -218,7 +218,7 @@
       "pct": 3.68
     },
     {
-      "ticker": "NBIS",
+      "ticker": "YNDX",
       "name": "Nebius Group N.V.",
       "class": "CLASS ASHS",
       "value": 1232894,
@@ -282,5 +282,5 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000500/"
     }
   ],
-  "updatedAt": "2026-10-09T04:17:00+00:00"
+  "updatedAt": "2026-10-10T04:02:12+00:00"
 }
